@@ -24,7 +24,7 @@ while ejecutando:
             print("Lo sentimos, no quedan espacios en el camping")
         else:
             try:
-                ingreso = int(input("¿Cuantos sitios o vehiculos van a ingresar?"))
+                ingreso = int(input("¿Cuantos sitios o vehiculos van a ingresar?: "))
                 if ingreso <=0:
                     print("Error: la cantidad de ingreso debe ser mayor a 0")
                 elif ingreso > sitios_libres:
